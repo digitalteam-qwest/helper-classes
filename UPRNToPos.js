@@ -1,11 +1,11 @@
 class WGS84 {
     constructor() {
-        this.latititude = 0.0;
+        this.latitude = 0.0;
         this.longitude = 0.0;
     }
 
     set(latitude, longitude) {
-        this.latititude = latitude;
+        this.latitude = latitude;
         this.longitude = longitude;
     }
 }
